@@ -9,12 +9,19 @@
 伪代码
 -----
 1、根据用户名称查询UserID
+
 2、根据用户ID查对应角色RoleIDs
+
 3、权限表页面表并查找
+
    角色类型为CF_Role AND 角色编号在角色RoleIDs中
+   
   OR
+  
    角色类型为CF_User AND 人员编号为UserID
+   
 4、判断权限集合是否有查看权限输出对应页面
+
 ----------------
 ![8snm v8ejcst_f igxxxs1](https://cloud.githubusercontent.com/assets/16081097/19835254/2c0769d0-9ebb-11e6-82a6-02f73b84fe8e.png)
 查询结果截图
@@ -23,9 +30,16 @@
 伪代码
 ------
 1、根据名称查找人员编号UserID
+
 2、根据人员编号UserID查找改人员所对应的角色RoleIDs
+
 3、权限表按钮表页面表并查找
+
    角色类型为CF_Role AND 角色编号在角色RoleIDs中
+   
   OR
+  
     角色类型为CF_User AND 人员编号为UserID
+    
 4、  查询权限集合中菜单名为“订单”的数据据
+
